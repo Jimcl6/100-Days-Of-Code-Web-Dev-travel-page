@@ -1,0 +1,24 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 50px;
+    color: rgb(245, 243, 160);
+    text-shadow: 2px 2px #b533e5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
