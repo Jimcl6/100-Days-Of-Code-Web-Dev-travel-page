@@ -3,14 +3,41 @@ body {
     margin: 0;
 }
 
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+li {
+    padding: 10px;
 }
 
 li a {
     text-decoration: none;
+    color: #ffff00;
+    transition-duration: 100ms;
+    background: #0035a0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #0035a0;
+    background-color: #ffff00;
+    transition-duration: 500ms;
 }
 
 #page-logo a {
