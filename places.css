@@ -18,6 +18,7 @@ main li {
     box-shadow: 1px 1px 4pc #00000033;
     border-radius: 6px;
     overflow: hidden;
+    margin: 10px;
 }
 
 main li img {
