@@ -162,16 +162,15 @@ main #hero-section {
 footer {
     background-color: #000;
     margin: 0;
-    width: 100%;
 }
 
 footer ul {
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
-    width: 70%;;
+    max-width: 100%;
+    width: 30%;
 }
 
 footer ul li a {
