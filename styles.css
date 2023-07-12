@@ -101,6 +101,7 @@ main #hero-section {
     text-transform: uppercase;
     font-size: 50px;
     font-family: "Raleway", sans-serif;
+    margin: 0;
 }
 
 .hero-section-container p {
@@ -149,4 +150,26 @@ main #hero-section {
 
 .destination p strong {
     color: #008177;
+}
+/* end of Highlights section */
+
+/* footer section */
+footer{
+    background-color: #000;
+    margin: 0;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer ul li a {
+    padding: 10px;
+}
+
+footer ul li a img {
+    width: 100px;
 }
