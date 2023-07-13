@@ -12,6 +12,7 @@ main ul {
     padding: 20px;
 }
 
+
 main li {
     background-color: #fff;
     display: flex;
@@ -19,6 +20,8 @@ main li {
     border-radius: 6px;
     overflow: hidden;
     margin: 10px;
+    max-width: 100%;
+    width: 48%;
 }
 
 main li img {
