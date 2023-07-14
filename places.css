@@ -7,9 +7,9 @@ header {
 }
 
 main ul {
+    width: 1200px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 48px auto;
     padding: 20px;
     /* css grid challenge code */
     display: grid;
