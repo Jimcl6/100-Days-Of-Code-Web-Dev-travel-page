@@ -11,8 +11,11 @@ main ul {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    /* css grid challenge code */
     display: grid;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    /* end of css grid challenge code */
 }
 
 
@@ -22,14 +25,16 @@ main li {
     box-shadow: 1px 1px 4pc #00000033;
     border-radius: 6px;
     overflow: hidden;
-    margin: 10px;
     max-width: 100%;
 }
 
-.list-items:nth-of-type(3) {
+/* css grid challenge code */
+.list-items:nth-of-type(3), 
+.list-items:nth-of-type(10) {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+/* end of css grid challenge code */
 
 main li img {
     width: 300px;
@@ -68,7 +73,9 @@ main .actions a:hover {
 
 .item-content {
     padding: 24px;
+    /* css grid challenge */
     width: 100%;
+    /* end of css grid challenge */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
