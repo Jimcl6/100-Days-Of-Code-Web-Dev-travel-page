@@ -7,9 +7,12 @@ header {
 }
 
 main ul {
-    width: 1200px;
-    margin: 0 auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 800px 800px;
 }
 
 
@@ -21,7 +24,11 @@ main li {
     overflow: hidden;
     margin: 10px;
     max-width: 100%;
-    width: 48%;
+}
+
+.list-items:nth-of-type(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 main li img {
@@ -61,6 +68,7 @@ main .actions a:hover {
 
 .item-content {
     padding: 24px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
